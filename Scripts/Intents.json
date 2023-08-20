@@ -1,0 +1,44 @@
+{
+ "intents": [
+     {"tag":"greetings" , 
+      "patterns": ["Hey", "Hello", "Whats up", "Hi", "Good Day", "Greetings", "Hey there", "Hi there", "Howdy", "Hiya", "Yo", "Hi!"],
+      "responses":["Hello Sir","Hello Omkar"]
+      },
+     {"tag":"plot_chart" , 
+      "patterns": ["I want you to plot stock price", "Please plot a chart", "Plot a stock", "Plot stock Price", "Show me stock price Chart", "Candlestick chart", "plot price", "Plot", "show chart", "Display stock chart", "Show historical stock data", "Graph the stock prices", "Visualize stock performance"],
+      "responses":["Plotting Chart"]
+      },
+     {"tag":"add_portfolio" , 
+      "patterns": ["Add a stock", "Add stock to my list", "I want to add something to my portfolio", "I have a new stock", "add", "Buy", "Add a new investment", "Invest in a new stock", "Purchase stock", "Add new asset"],
+      "responses":["Adding Stock"]
+      },
+     {"tag":"show_portfolio" , 
+      "patterns": ["Show my investment","show my portfolio","portfolio", "Display my holdings", "What stocks do I own?", "View my investments", "Check portfolio status", "Show me my assets"],
+      "responses":["Showing Portfolio"]
+      },
+      {"tag":"bye" , 
+       "patterns": ["see you","Bye","Stop","End", "Goodbye", "Farewell", "Take care", "See you later", "Till next time"],
+       "responses":["Exit"]
+       },
+        {"tag":"portfolio_gains" , 
+         "patterns": ["How is my portfolio performing","Performance of portfolio","How are my gains?","Gains", "Portfolio returns", "How much have I earned?", "How well is my investment doing?", "Is my portfolio profitable?", "What are my returns?"],
+         "responses":["Portfolio Gains"]
+         },
+         {"tag":"optimize" , 
+          "patterns": ["Optimize","rebalance","adjust my portfolio","Balance", "Make my portfolio better", "Optimize my investments", "Improve portfolio", "Optimization strategies", "How to optimize my stocks?"],
+          "responses":["optimize"]
+          },
+         {"tag":"portfolio_worth" , 
+          "patterns": ["How much is my portfolio worth","Value of my portfolio","Total Asset","Total Holding", "What's my net worth?", "Calculate portfolio value", "Estimate portfolio worth", "Check current portfolio value"],
+          "responses":["Portfolio Worth"]
+          },
+          {"tag":"stock_price" , 
+           "patterns": ["stock price","price of my stock","current value of stock","current price", "What's the stock price?", "Get the current stock value", "Stock price today", "Check current price of stock"],
+           "responses":["Price of stock"]
+           },
+        {"tag":"remove_portfolio" , 
+         "patterns": ["short","sell","remove", "get rid of", "dispose", "sell off", "Sell a stock", "Remove asset from portfolio", "Liquidate holding"],
+         "responses":["Removed the stock"]
+         }
+     ]
+ }
