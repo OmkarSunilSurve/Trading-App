@@ -15,7 +15,7 @@ For each of the bellow points we have a page dedicated in the app.
     1. Here, we need to provide the ticker symbol of the stock we want to add to our portfolio. For US stocks, we can simply mention their tickers, but for Indian stocks, we should include a '.NS' extension. For example, if we want to add Tata Motors, we would write "TATAMOTORS.NS" in the provided field.
     2. After this step, you will receive the previous day's OHLC (Open, High, Low, Close) data and the current price.
     3. Additionally, you will receive a prediction indicating whether it's advisable to buy this stock or not.
-    4. In addition to this, we have various indicator plots such as RSI, MACD, and 3EMA.
+    4. In addition to this, we have various indicator plots such as RSI, MACD, and 3EMA with periods as 12,24,55.
 
 
 2. Plotting the trend of the stock for a time window selected by you.
