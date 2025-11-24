@@ -1,11 +1,6 @@
 # Trading App
 
 
-## Link to zip file containing the executable for the app is available at
-https://drive.google.com/folderview?id=1JT0awma6N9ipuJvo5zAz2RvLA33MS1TM
-
-### Pictures are available in the Images folder, and the above link contains a video of the functioning application.
-
 ## Description
 Welcome. In this process I have tried to create an app with basic funtionality similar to that of a well fleged Trading app allowing us to knid of create our own portfolio based on live market data. Working of the app could be understood by the video in the above link.
 
